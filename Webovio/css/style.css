@@ -1,0 +1,156 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #4D533C;
+    line-height: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid white;
+    border-top: 4px solid transparent;
+    transform: rotate(90deg);
+    margin-right: 4px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    background: white;
+    z-index: 10;
+    border-radius: 4px;
+    box-shadow: 50px 50px 100px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main__companies {
+    margin-bottom: 240px;
+}
+
+
+/* ========================= HEADER-TOP ====================== */
+
+
+.header {
+    height: 100vh;
+    background: url(../images/bg-photo.jpg) center center / cover no-repeat;
+    background-attachment: fixed; 
+}
+
+.header__top {
+    padding-top: 25px;
+    margin: 0px 165px;
+    height: 75px;
+    margin-bottom: 80px;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-logo {
+}
+.logo {
+}
+.header__top-menu {
+}
+
+/* ========================= HEADER-BODY ====================== */
+
+.header__body {
+}
+.header__body-content {
+    margin: 0 165px;
+    color: #fff;
+}
+.header__body-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.header__body-title {
+    width: 620px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 123%;
+    margin-bottom: 25px;
+}
+.header__body-text {
+    width: 580px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162%;
+    margin-bottom: 45px;
+}
+.header__body-btn {
+    display: flex;
+    align-items: center;
+    width: 125px;
+    transition: all .3s;
+}
+
+.header__body-btn:hover .arrow{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #FFD723;
+}
+.header__body-btn:hover .button{
+    color: #FFD723;
+    text-decoration: underline;
+}
+
+.header__body-button {
+}
+
+
+/* ========================= HEADER-COMPANIES ====================== */
+
+
+
+.companies {
+}
+.companies__inner {
+    
+}
+.companies__block {
+    margin-top: -80px;
+    margin-left: 500px;
+    width: 1280px;
+    height: 200px;
+}
+
+.companies__list {
+    display: flex;
+}
+.companies__item {
+    margin-right: 25px;
+}
+.companies__item img{
+    width: 150px;
+    height: 110px;
+}
+.companies__item:last-child {
+    margin-right: 0px;
+}
